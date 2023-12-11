@@ -24,6 +24,8 @@ pip install -r requirements.txt
 Если django_filters не устанавливается, то 
 pip install git+https://github.com/carltongibson/django-filter.git
 
+Если не установился drf_yasg:  pip3 install drf_yasg 
+
 cd recipes
 
 Запустить в одном терминале: python manage.py runserver 
