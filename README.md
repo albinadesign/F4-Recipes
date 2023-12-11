@@ -19,22 +19,23 @@ python3 -m venv venv или python -m venv venv (1  - для Mac, 2 - для Win
 
 source venv/bin/activate 
 
-pip install -r requirements.txt
-
-Если django_filters не устанавливается, то 
-pip install git+https://github.com/carltongibson/django-filter.git
-
-Если не установился drf_yasg:  pip3 install drf_yasg 
-
 cd recipes
+
+pip install -r requirements.txt
 
 Запустить в одном терминале: python manage.py runserver 
 
-и в другом терминале cd F4-Recipes
+и в другом терминале: 
+cd F4-Recipes
+
 cd recipes
+
 cd frontend
+
 npm i
+
 npm start
+
 
 Запускается проект по адресу http://localhost:3000/
 <img width="1675" alt="image" src="https://github.com/albinadesign/F4-Recipes/assets/117900508/32e36483-ce62-4b2a-96a0-a805699e3a22">
