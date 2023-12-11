@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 и в другом терминале: 
 
-cd pythonProject9/F4-Recipes/recipes/frontend
+cd F4-Recipes/recipes/frontend
 
 npm i
 
