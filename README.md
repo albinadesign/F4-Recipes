@@ -26,11 +26,8 @@ pip install -r requirements.txt
 Запустить в одном терминале: python manage.py runserver 
 
 и в другом терминале: 
-cd F4-Recipes
 
-cd recipes
-
-cd frontend
+cd pythonProject9/F4-Recipes/recipes/frontend
 
 npm i
 
